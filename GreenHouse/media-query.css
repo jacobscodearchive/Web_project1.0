@@ -1,0 +1,176 @@
+
+
+/* MEDIA QUERY STARTS HERE FOR MOBILE RESPONSIVE PROPERTIES */
+
+@media all and (max-width:1000px){
+
+
+/* ////////HEADER AND NAV BAR STYLING//////// */
+
+header .moto p{
+    font-size: 60px;
+ }
+
+header .moto p span{
+
+    font-size: 60px;
+}
+
+header nav p img {
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 10px;
+  
+}
+
+ header nav ul {
+    /*border: 2px solid red;*/
+    height:250px;
+    width: 500px;
+    background: linear-gradient(to left, rgba(0, 0, 0, .9), rgba(0, 0, 0, .1));
+    padding-top: 80px;
+    margin: 0px;
+    display: block;
+    position: absolute;
+    right: 0px;
+    transition: all .8s;
+}
+header nav ul li{
+    display: block;
+    height: 50px;
+    width: 100%;
+    margin: 5px 0px;
+    text-align: center;
+    /*border: 2px solid white;*/
+    
+}
+
+header nav ul li:hover{
+    text-decoration: underline;
+    background: transparent;
+}
+
+header nav img{
+    display: inline-block;
+    margin-top: 10px;
+    /*border: 2px solid red;*/
+}
+ 
+header nav img:active{
+    border: 2px solid rgb(112, 110, 110);
+}
+
+
+/*    ////SECTION STYLING////   */
+
+
+section .content-page {
+    width: 100%;
+}
+
+section .content-page h1{
+    font-size: 3.2rem;
+}
+
+ section .introtext{
+    flex-direction: column;
+    padding: 0px;
+    width: 100%;
+     
+}
+
+section .introtext img{
+    width: 0px;
+    margin: 0px;
+    display: none;
+
+}
+
+section .introtext p{
+    margin: 0px;
+    width: 95%;
+    padding: 20px;
+    margin: 0px auto;
+   /* text-align: center;*/
+    font-size: .85rem;
+    opacity: 100%;
+  
+}
+    
+section .response {
+    width: 100%;
+}
+
+section .quest h1{
+
+    padding: 40px;
+    text-align: center;
+    font-size: 2.5rem;
+    width:100%;
+}
+
+section .response .text{
+    flex-direction: column;
+}
+section .response .text img{
+    width: 0px;
+    height: 0px;
+    display: none;
+}
+section .response .text p{
+    padding: 20px;
+    margin: auto auto;
+    width: 95%;
+    font-size: .85rem;
+    opacity: 100%;
+    /*text-align: center;*/
+}
+
+
+/* /////// FINAL TEXT CLASS EDITING AND STYLING////// */
+
+.finaltext .backlight{
+    height: 100%;
+}
+
+.finaltext p{
+    font-size: 1rem;
+}
+.finaltext ul{
+    padding-left: 60px;
+} 
+.finaltext ul li{
+    /* border: 2px solid blue;*/
+     font-size: .9rem;
+}
+
+/* /////// FOOTER AND FORM ITRMS STYLING////// */
+
+
+.contact h1{
+    font-size: 2.3rem;
+}
+
+footer{
+     width: 100%;
+ }
+footer form{
+     width: 100%;
+  }
+ 
+footer .sociallist ul li{
+    margin:0px 20px;
+}
+
+footer .sociallist ul .link{
+    display: none;
+}
+
+footer .sociallist ul li img:active{
+     border: 2px solid black;
+     border-radius: 50%;
+   
+  }
+ 
+}

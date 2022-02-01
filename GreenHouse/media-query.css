@@ -94,7 +94,6 @@ section .introtext p{
     margin: 0px auto;
    /* text-align: center;*/
     font-size: 1.2rem;
-    line-height: 2rem;
     opacity: 100%;
   
 }
@@ -124,7 +123,6 @@ section .response .text p{
     margin: auto auto;
     width: 95%;
     font-size: 1.2rem;
-    line-height: 2rem;
     opacity: 100%;
     /*text-align: center;*/
 }
@@ -138,7 +136,6 @@ section .response .text p{
 
 .finaltext p{
     font-size: 1.2rem;
-    line-height: 2rem;
 }
 .finaltext ul{
     padding-left: 60px;

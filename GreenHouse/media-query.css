@@ -93,8 +93,8 @@ section .introtext p{
     padding: 20px;
     margin: 0px auto;
    /* text-align: center;*/
-    font-size: 18px;
-    line-height: 5px;
+    font-size: 1.2rem;
+    line-height: 2rem;
     opacity: 100%;
   
 }
@@ -123,8 +123,8 @@ section .response .text p{
     padding: 20px;
     margin: auto auto;
     width: 95%;
-    font-size: 18px;
-    line-height: 5px;
+    font-size: 1.2rem;
+    line-height: 2rem;
     opacity: 100%;
     /*text-align: center;*/
 }
@@ -137,8 +137,8 @@ section .response .text p{
 }
 
 .finaltext p{
-    font-size: 18px;
-    line-height: 5px;
+    font-size: 1.2rem;
+    line-height: 2rem;
 }
 .finaltext ul{
     padding-left: 60px;
@@ -146,6 +146,7 @@ section .response .text p{
 .finaltext ul li{
     /* border: 2px solid blue;*/
      font-size: 1rem;
+     line-height: 2rem;
 }
 
 /* /////// FOOTER AND FORM ITRMS STYLING////// */

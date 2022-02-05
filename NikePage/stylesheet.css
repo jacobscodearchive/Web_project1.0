@@ -136,7 +136,7 @@ nav .menu a img {
 
 
 
-/* ///////// MEDIA QUERY STARTS HERE //////// */
+/* ///////// MEDIA QUERY STARTS HERE //////// 
 
 
 @media all and (max-width: 900px) {
@@ -154,4 +154,6 @@ nav .menu a img {
       width: 4rem;
   }
 }
+
+*/
 

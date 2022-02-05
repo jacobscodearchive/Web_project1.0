@@ -19,7 +19,7 @@ const contact = document.querySelector(".contact h1"); // CONTACT NAME DISPLAY /
 
 let winSize = window.outerWidth;
 
-if (winSize <= "1000") {
+if (winSize <= "1100") {
   header.style.opacity = "100%";
   animate.addEventListener("mouseleave", removeOpacity);
   menuButton.addEventListener("click", popUp);
@@ -28,11 +28,11 @@ if (winSize <= "1000") {
   // //////////RESPONSIVE NAVIGATION////// //
   function popUp() {
     if (navBar.style.top == "-100%") {
-      console.log("nav bar down"); // SIMPLE LOG //
+      //console.log("nav bar down"); // SIMPLE LOG //
       navBar.style.top = "0%";
     } else if (navBar.style.top == "0%") {
       navBar.style.top = "-100%";
-      console.log("nav bar up"); // SIMPLE LOG //
+      //console.log("nav bar up"); // SIMPLE LOG //
     }
   }
 
@@ -52,8 +52,8 @@ if (winSize <= "1000") {
     let last = lastName.value;
 
     if (first == "" || last == "") {
-      contact.innerText = "Please fillout the information";
- 	  e.target.value = "please fillout the form!";
+     	  contact.innerText = "Please fillout the information";
+	  e.target.value = "please fillout the form!";
 	  e.target.style.background = "red";
     } else {
       contact.innerText = `Thank You for your interest ${first}  ${last} .`;
@@ -62,13 +62,13 @@ if (winSize <= "1000") {
       e.target.style.border = "none";
       
     }
-    /*
-		// ///////LOGGING NAME////// //
-        console.log(typeof first, last);
-		console.log(firstName.value);
-		console.log(lastName.value);
-		console.log(e.target.value);
-	  */
+/*
+	// ///////LOGGING NAME////// //
+	console.log(typeof first, last);
+	console.log(firstName.value);
+	console.log(lastName.value);
+	console.log(e.target.value);
+  */
   }
 }
 
@@ -82,7 +82,7 @@ else {
     header.style.transition = "opacity 1.3s ease-in";
     image_1.style.left = "0%";
     borderset.style.opacity = "100%";
-    console.log("hovering over the element.."); // CONSOLE LOGGING
+    //console.log("hovering over the element.."); // CONSOLE LOGGING
   }
 
   function moveItem() {
@@ -96,7 +96,7 @@ else {
   function fadeout() {
     header.style.opacity = "0%";
     header.style.transition = "opacity .5s ease-in .1s";
-    console.log("leaving out of the element.."); // CONSOLE LOGGING
+    //console.log("leaving out of the element.."); // CONSOLE LOGGING
   }
 
     // //////////CAPTURE THE FULL NAME////////// //
@@ -112,7 +112,7 @@ else {
 	  if (first == "" || last == "") {
 		contact.innerText = "Please fillout the information";
 		e.target.style.background = "red";
-    e.target.value = "please fillout the form!";
+    		e.target.value = "please fillout the form!";
 	  } else {
 		contact.innerText = `Thank You for your interest ${first}  ${last} .`;
 		e.target.value = "Sent";

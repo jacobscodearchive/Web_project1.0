@@ -2,18 +2,19 @@
 
 /* MEDIA QUERY STARTS HERE FOR MOBILE RESPONSIVE PROPERTIES */
 
-@media all and (max-width:1000px){
+@media all and (max-width:1100px){
 
 
 /* ////////HEADER AND NAV BAR STYLING//////// */
 
 header .moto p{
     font-size: 60px;
+    font-family: "Meie Script", sens-serif;
  }
 
 header .moto p span{
-
     font-size: 60px;
+    font-family: "Bebas Neue", sens-serif;
 }
 
 header nav p img {
@@ -54,7 +55,7 @@ header nav ul li:hover{
 header nav img{
     display: inline-block;
     margin-top: 10px;
-    /*border: 2px solid red;*/
+    border: 2px solid white;
 }
  
 header nav img:active{
@@ -70,6 +71,7 @@ section .content-page {
 }
 
 section .content-page h1{
+    color: white;
     font-size: 3.2rem;
 }
 
@@ -92,8 +94,9 @@ section .introtext p{
     width: 95%;
     padding: 20px;
     margin: 0px auto;
+    font-family: "quicksand", sens-serif;
    /* text-align: center;*/
-    font-size: .85rem;
+    font-size: 1.2rem;
     opacity: 100%;
   
 }
@@ -122,7 +125,8 @@ section .response .text p{
     padding: 20px;
     margin: auto auto;
     width: 95%;
-    font-size: .85rem;
+    font-family: "quicksand", sens-serif;
+    font-size: 1.2rem;
     opacity: 100%;
     /*text-align: center;*/
 }
@@ -135,14 +139,18 @@ section .response .text p{
 }
 
 .finaltext p{
-    font-size: 1rem;
+    font-size: 1.2rem;
+    font-family: "quicksand", sens-serif;
 }
 .finaltext ul{
     padding-left: 60px;
+    
 } 
 .finaltext ul li{
     /* border: 2px solid blue;*/
-     font-size: .9rem;
+     font-size: 1rem;
+     line-height: 2rem;
+    font-family: "quicksand", sens-serif;
 }
 
 /* /////// FOOTER AND FORM ITRMS STYLING////// */

@@ -1,8 +1,11 @@
 /*  RESPONSIVE DESIGN FOR THE MOBILE VERSION */
 
-@media all and (max-width: 1150px) {
+@media all and (max-width: 900px) {
+  .columns{
+    flex-wrap: wrap;
+  }
   .columns .col_1 {
-    flex-basis: 100%;
+    flex-basis: 600px;
   }
   .columns .col_2{
       flex-basis: 100%;

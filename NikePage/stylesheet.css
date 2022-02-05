@@ -133,3 +133,25 @@ nav .menu a img {
   transform: translate(10px);
   transition: 0.6s ease-in-out 0.1s;
 }
+
+
+
+/* ///////// MEDIA QUERY STARTS HERE //////// */
+
+
+@media all and (max-width: 900px) {
+  .columns .col_1 {
+    flex-basis: 100%;
+  }
+  .columns .col_2{
+      flex-basis: 100%;
+  }
+  .col_2 .shoeslist .image_list{
+      width: 3rem;
+      height: 3rem;
+  }
+  .col_2 .shoeslist .image_list img{
+      width: 4rem;
+  }
+}
+

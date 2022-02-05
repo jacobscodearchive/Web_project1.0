@@ -1,6 +1,6 @@
 /*  RESPONSIVE DESIGN FOR THE MOBILE VERSION */
 
-@media all and (max-width: 1000px) {
+@media all and (max-width: 1150px) {
   .columns .col_1 {
     flex-basis: 100%;
   }

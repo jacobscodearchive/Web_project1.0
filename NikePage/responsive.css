@@ -5,7 +5,7 @@
     flex-wrap: wrap;
   }
   .columns .col_1 {
-    flex-basis: 600px;
+    flex-basis: 100;
   }
   .columns .col_2{
       flex-basis: 100%;

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Music player page" />
+    <meta name="keywords" content="Music site" />
+    <meta name="keywords" content="Music for today" />
+    <meta http-equiv="pragma" content="no_catch" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>Music Player</title>
+
+    <link rel="stylesheet" href="stylesheet.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <img src="logo.png" alt="logo" class="logo" />
+
+        <div class="navbar">
+          <a href="#">HOME</a>
+          <a href="#">ABOUT</a>
+          <a href="#">COLLECTION</a>
+          <a href="#">PRODUCT</a>
+          <a href="#">CONNECT</a>
+        </div>
+      </nav>
+
+      <div class="content">
+        <div class="col_1">
+          <h1>
+            THE <br />
+            REAL <br />SOUND
+          </h1>
+        </div>
+        <div class="col_2">
+          <p>Click here to Listen</p>
+          <img src="play.png" alt="play button" id="buttonplay" />
+        </div>
+      </div>
+
+      <audio id="audio">
+        <source src="yonzima.mp3" type="audio/mp3" />
+      </audio>
+    </header>
+
+    <!-- SCRIPT FOR THE MUSIC TO -->
+
+    <script>
+      let playbutton = document.querySelector("#buttonplay");
+      let SOUND = document.querySelector("#audio");
+
+      playbutton.addEventListener("click", play);
+
+      function play() {
+        if (SOUND.paused) {
+          playbutton.src = "pause.png";
+          SOUND.play();
+        } else {
+          playbutton.src = "play.png";
+          SOUND.pause();
+        }
+      }
+    </script>
+  </body>
+</html>

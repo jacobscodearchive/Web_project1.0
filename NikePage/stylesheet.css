@@ -149,10 +149,10 @@ nav .menu a img {
     flex-direction: column;
    }
   .columns .col_1 {
-    flex-basis: 100%;
+    flex-basis: auto;
   }
   .columns .col_2{
-      flex-basis: 100%;
+      flex-basis: auto;
   }
   .col_2 .shoeslist .image_list{
       width: 3rem;

@@ -50,8 +50,7 @@ nav .menu a img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  min-width: 600px;
-  max-width: 100%;
+  flex-basis: 50%;
   height: 100%;
   padding: 8%;
   background: #1e2227;
@@ -79,7 +78,7 @@ nav .menu a img {
   cursor: pointer;
   color: #fff;
   background: red;
-  transition: transform 0.5s linear;
+  transition: transform 0.4s linear;
 }
 
 .col_1 button:hover {
@@ -137,10 +136,18 @@ nav .menu a img {
 
 
 
-/* ///////// MEDIA QUERY STARTS HERE //////// 
+/* ///////// MEDIA QUERY STARTS HERE //////// */
 
 
-@media all and (max-width: 900px) {
+/*  RESPONSIVE DESIGN FOR THE MOBILE VERSION */
+
+
+@media all and (max-width:600px) {
+
+  .columns{
+    height: 100%;
+    flex-direction: column;
+   }
   .columns .col_1 {
     flex-basis: 100%;
   }
@@ -150,11 +157,11 @@ nav .menu a img {
   .col_2 .shoeslist .image_list{
       width: 3rem;
       height: 3rem;
-  }
+   }
   .col_2 .shoeslist .image_list img{
       width: 4rem;
   }
 }
 
-*/
+
 

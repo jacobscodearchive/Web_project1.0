@@ -142,19 +142,17 @@ nav .menu a img {
 /*  RESPONSIVE DESIGN FOR THE MOBILE VERSION */
 
 
-@media all and (max-width:600px) {
+@media all and (max-width:1100px) {
 
   .columns{
     height: 100%;
     flex-direction: column;
    }
   .columns .col_1 {
-    min-width: 500px;
-    max-width: auto;
+    min-width: 100%;
   }
   .columns .col_2{
-     min-width: 500px;
-     max-width: auto;
+     min-width: 100%;
   }
   .col_2 .shoeslist .image_list{
       width: 3rem;

@@ -156,10 +156,11 @@ nav .menu a img {
      min-width: 100%;
   }
   .col_2 .shoeslist .image_list{
-      width: 3rem;
-      height: 3rem;
+      width: 4rem;
+      height: 4rem;
+      padding-bottom: 100px;
    }
   .col_2 .shoeslist .image_list img{
-      width: 4rem;
+      width: 6rem;
   }
 }

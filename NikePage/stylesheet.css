@@ -150,6 +150,7 @@ nav .menu a img {
    }
   .columns .col_1 {
     min-width: 100%;
+    min-hieght: 150%;
   }
   .columns .col_2{
      min-width: 100%;

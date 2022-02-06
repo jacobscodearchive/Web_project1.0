@@ -150,7 +150,7 @@ nav .menu a img {
    }
   .columns .col_1 {
     min-width: 100%;
-    min-hieght: 150%;
+    min-hieght: 100%;
   }
   .columns .col_2{
      min-width: 100%;
@@ -158,7 +158,7 @@ nav .menu a img {
   .col_2 .shoeslist .image_list{
       width: 4rem;
       height: 4rem;
-      padding-bottom: 100px;
+      margin-bottom: 200px;
    }
   .col_2 .shoeslist .image_list img{
       width: 6rem;

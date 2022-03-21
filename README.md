@@ -10,4 +10,4 @@ https://jacobscodearchive.github.io/Web_project1.0/Musicplayer/
 
 https://jacobscodearchive.github.io/Web_project1.0/Winter/
 
-https://jacobscodearchive.github.io/Web_project1.0/Ecommerce-site_project/
+https://jacobscodearchive.github.io/Web_project1.0/Ecommerce_site_project/

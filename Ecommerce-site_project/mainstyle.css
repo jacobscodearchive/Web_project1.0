@@ -58,7 +58,6 @@ nav a {
   cursor: pointer;
 }
 nav a:hover {
-  /* text-decoration: dashed; */
   color: #ff523b;
   transition: 0.2s ease-in-out;
 }
@@ -152,11 +151,11 @@ section {
 
   /* RATING AND QUTOES   */
 
-  .rating .fa-star-half, .fa-star{
+  .rating .fa{
     color: #ff533b;
     padding: 5px;
   }
-  .fa-star-sharp-half-stroke{
+  .fa{
     color: #ff533b;
     padding: 5px;
   }

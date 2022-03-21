@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+    href="https://fonts.googleapis.com/css2?family=Poppinse&display=swap"
+    rel="stylesheet"
+  />
+
+    <link rel="stylesheet" href="mainstyle.css" />
+
+    <title>shopping cart page</title>
+  </head>
+  <body>
+    <!--   NAVIGATION AREA   -->
+    <div class="cartcont">
+      <div class="navbar">
+        <img src="logo.png" class="logo" />
+        <nav>
+          <ul class="navlist">
+            <li><a href="index.html"> Home </a></li>
+            <li><a href="products.html"> Products </a></li>
+            <li><a href="product_detail.html"> Details </a></li>
+            <li><a href="index.html"> About </a></li>
+            <li><a href="#footer"> Contact </a></li>
+            <li><a href="account_creation.html"> Account </a></li>
+          </ul>
+          <a href="shopping_cart.html"><img src="cart.png" class="cart" /> </a>
+          <img src="menu.png" class="menu" />
+        </nav>
+      </div>
+
+      <!--   SHOPPING CART PAGE    -->
+      <div class="cart-table feature">
+        <table>
+          <tr>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Subtotal</th>
+          </tr>
+          <tr>
+            <td>
+              <div class="item1">
+                <img src="buy-1.jpg" />
+                <div class="text">
+                  <p>Red printed T-Shirts</p>
+                  <small>Price: $50.00</small>
+                  <a href="#">Remove</a>
+                </div>
+              </div>
+            </td>
+
+            <td><input type="number" value="1" /></td>
+            <td>$50.00</td>
+          </tr>
+
+          <tr>
+            <td>
+              <div class="item1">
+                <img src="buy-2.jpg" />
+                <div class="text">
+                  <p>Light Weight Running Shoes</p>
+                  <small>Price: $75.00</small>
+                  <a href="#">Remove</a>
+                </div>
+              </div>
+            </td>
+
+            <td><input type="number" value="1" /></td>
+            <td>$75.00</td>
+          </tr>
+
+          <tr>
+            <td>
+              <div class="item1">
+                <img src="buy-3.jpg" />
+                <div class="text">
+                  <p>Gray Sportish sweat pants</p>
+                  <small>Price: $75.00</small>
+                  <a href="#">Remove</a>
+                </div>
+              </div>
+            </td>
+
+            <td><input type="number" value="1" /></td>
+            <td>$150.00</td>
+          </tr>
+
+          <tr>
+            <td>
+              <div class="item1">
+                <img src="product-8.jpg" />
+                <div class="text">
+                  <p>Stainless Water Proof watch</p>
+                  <small>Price: $100.00</small>
+                  <a href="#">Remove</a>
+                </div>
+              </div>
+            </td>
+
+            <td><input type="number" value="1" /></td>
+            <td>$100.00</td>
+          </tr>
+
+
+        </table>
+      </div>
+
+      <!--   TOTAL PRICE CALC    -->
+      <div class="feature total">
+        <table>
+          <tr>
+            <td>Subtotal:</td>
+            <td>$365</td>
+          </tr>
+          <tr>
+            <td>Tax</td>
+            <td>$50.00</td>
+          </tr>
+          <tr>
+            <td>Total</td>
+            <td>$315.00</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <!-- FOOTER SECTION  -->
+    <footer id="footer">
+      <div class="footer">
+        <div class="col1">
+          <h3>Download Our App</h3>
+          <p>Download App for Android and ios mobile phone.</p>
+          <div class="app-logo">
+            <img src="app-store.png" />
+            <img src="play-store.png" />
+          </div>
+        </div>
+        <div class="col2">
+          <img src="logo-white.png" />
+          <p>
+            Our Purpose Is To Sustainable Make the Pleasure and Benefits <br />
+            of Sport Accessible to All
+          </p>
+        </div>
+        <div class="col3">
+          <h3>Usefull Links</h3>
+          <ul>
+            <li><a href="#">Cupons</a></li>
+            <li><a href="#">Blog Post</a></li>
+            <li><a href="#">Return Policy</a></li>
+            <li><a href="#">Join Affiliate</a></li>
+          </ul>
+        </div>
+
+        <div class="col4">
+          <h3>Follow Us</h3>
+          <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">YouTube</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr />
+      <p class="copy">&copy Copyright 2020 - Ecommerce site project</p>
+    </footer>
+
+    <!-- SCRIPT FOR THE MENU BAR -->
+    <script>
+      let menu = document.querySelector(".navlist");
+      let click = document.querySelector(".menu");
+
+      click.addEventListener("click", showmenu);
+
+      function showmenu() {
+        if (menu.style.left == "-100%") {
+          menu.style.left = "0%";
+        } else {
+          menu.style.left = "-100%";
+        }
+      }
+    </script>
+  </body>
+</html>
